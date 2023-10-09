@@ -1,0 +1,38 @@
+header , .intro{
+background-color: #1F2937;
+display: flex;
+}
+
+.link, .description{
+font-size: 18px;
+color: #E5E7EB;
+
+}
+.logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+.quote{
+    background-color: #e5e7eb;
+}
+footer{
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
+button{
+    background-color: #3882F6;
+    color: #EEEEEE;
+}
+header{
+    justify-content: space-between;
+}
+.link-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
