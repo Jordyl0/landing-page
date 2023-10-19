@@ -1,3 +1,11 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    
+}
+
+
+
 body{
    margin: 0;
     
@@ -7,11 +15,30 @@ header{
     justify-content: space-between;
     background-color: #1f2937;
     align-items: center;
+    width: 100%;
+    height: 75px;
 }
 
 .left{
     color: #F9faf8;
     font-size: 24px;
+    margin-left: 25px;
+}
+.right{
+    margin-right: 40px;
 }
 
+ul{
+    display: flex;
+    gap: 30px;
+    font-size: 18px;
+    list-style-type: none; 
+}
+a{
+    text-decoration: none;
+    color: #e5e7eb;
+}
+a:hover {
+    color: black;
+}
 
