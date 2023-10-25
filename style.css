@@ -42,7 +42,7 @@ a:hover {
     color: black;
 }
 footer {
-    position: fixed;
+    margin-top: auto;
     bottom: 0;
     left: 0;
     text-align: center;
@@ -58,7 +58,28 @@ footer {
 }
 button{
     background-color: #3882f6;
+    border: none;
+    flex: 0;
+    border-radius: 12px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    margin: 4px 2px;
+    padding: 5px;
 }
+.button-one{
+    background-color: #3882f6;
+    border: none;
+    flex: 0;
+    width: 50px;
+    border-radius: 12px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    margin: 4px 2px;
+    padding: 5px;
+}
+
 
 .main{
     width: 100%;
@@ -71,25 +92,31 @@ button{
 }
 
 .info-text{
-    font-size: 30px;
-    font-weight: bolder;
-    color: #F9faf8;
+    
     text-align: left;
     width: 500px;
-    border: 5px dotted black;
     margin-top: 50px;
     margin: 75px;
     height: 300px;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction:column;
     margin-left: 100px;
     
     
+}
+h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9faf8; 
+    margin-bottom: 3px;
 }
 
 .description{
     font-size: 18px;
     color: #e5e7eb;
+    margin-bottom: 15px;
+
+    
 }
 .group{
     border: 5px dotted gray;
@@ -101,9 +128,78 @@ button{
 
 
 .gems{
+    margin-top: 20px;
     width: 100%;
     height: 300px;
+    text-align: center;
 }
+.image-container{
+    border: 5px solid purple;
+    width: 300px;
+    height: 250px;
+}
+
+.gem-container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+h2{
+    margin-bottom: 10px;
+}
+
+.quote{
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: #e5e7eb;
+    align-items: center;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-style:  oblique;
+}
+.quoter{
+margin-top: 50px;
+font-size: 20px;
+}
+
+.redirect{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.redirect-text{
+    display: flex;
+    padding: 7px 20px;
+    flex-direction: column;
+    color: white;
+    
+}
+.redirect-title{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.action{
+    background-color: #3882f6;
+    display: flex;
+    width: 700px;
+    
+    border-radius: 12px;
+    gap: 5px;
+}
+.button-two{
+    border: 1px solid white;
+    
+}
+
 
 
 
