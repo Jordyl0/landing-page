@@ -177,28 +177,29 @@ font-size: 20px;
 }
 .redirect-text{
     display: flex;
-    padding: 7px 20px;
-    flex-direction: column;
+    padding: 40px 50px;
+    flex-direction: row;
     color: white;
-    
+    gap: 15px;
 }
 .redirect-title{
     font-size: 30px;
     font-weight: bolder;
+    border: 4px;
 }
 
 .action{
     background-color: #3882f6;
     display: flex;
     width: 700px;
-    
     border-radius: 12px;
     gap: 5px;
 }
 .button-two{
     border: 1px solid white;
-    
+   
 }
+
 
 
 
